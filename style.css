@@ -22,8 +22,9 @@ body{
   -webkit-text-fill-color: transparent;
   display: inline-block;
   font-family: Plus Jakarta Sans;
-  font-size: 4rem;
+  font-size: 3rem;
   cursor: default;
+  flex-wrap: wrap;
   
 
 }
@@ -142,7 +143,7 @@ color: #ffffff;
     display: block;
     border: 1px solid white;
     box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.3);
-
+flex-wrap: wrap;
     
 
   
@@ -381,13 +382,13 @@ color: #ffffff;
     width: 100%;
     max-width: 100%;
     padding: 10px;
-    border-radius: 15px;
+    
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
     z-index: 1000;
-   
+    flex-wrap: wrap;
     
     
     
@@ -400,7 +401,7 @@ color: #ffffff;
 
     display: flex;
     gap: 15px;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 
