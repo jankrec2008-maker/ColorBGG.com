@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
 
 
 body{
@@ -261,6 +262,298 @@ flex-wrap: wrap;
 }
 
 
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+.toast2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+.toast3 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+.toast4 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+.toast5 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+.toast6 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+
+:root {
+    --color-primary: #908dcb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    margin-top: 15px;
+   
+    padding: 48px;
+      font-family: Plus Jakarta Sans;
+    background: rgb(206, 206, 206);
+   
+}
+
+.top, .bottom{
+    display: flex;
+    gap: 48px;
+}
+
+.top{
+    margin-bottom: 24px;
+}
+
+.bottom{
+    padding: 32px 0 0;
+    align-items: center;
+    border-top: 2px solid #2e2d42;
+    gap: 24px;
+}
+
+.top:is(.left, .right){
+    flex: 1 1 50%;
+}
+
+.bottom .left{
+    flex: 1 1 auto;
+}
+
+h2{
+    margin: 0 0 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+h2, p{
+    color: var(--color-primary);
+}
+
+p{
+    margin: 0;
+}
+
+blockquote{
+    padding: 0 24px 0 0;
+    margin: 0 0 24px;
+    font-size: 24px;
+}
+
+button{
+    background: #000000;
+    color: #ffffff;
+    display: inline-block;
+    gap: 8px;
+    align-items: center;
+    border: 0;
+    border-radius: 40px;
+    padding: 12px 24px 12px 28px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button .symbols{
+    font-size: 20px;
+}
+
+.links{
+    display: flex;
+    gap: 48px;
+    padding-right: 48px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    margin: 0;
+    flex: 1 1 50%;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 0 14px;
+}
+
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    font-size: 20px;
+}
+
+@media (width <= 734px){
+    .top{
+        flex-direction: column;
+    }
+
+    blockquote{
+        padding-right: 0;
+    }
+}
+
+@media (width <= 320px){
+    .bottom{
+        flex-direction: column-reverse;
+    }
+
+    .links{
+        padding-left: 24px;
+        padding-right: 24px;
+        text-align: center;
+    }
+
+    .top .left{
+        text-align: center;
+    }
+
+    blockquote{
+        padding-left: 58px;
+        padding-right: 58px;
+    }
+}
+.toast7 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+
+.toast8 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #000000;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-family: Plus Jakarta Sans;
+    
+   
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast2.show2 {
+    opacity: 1;
+    transform: translateY(0);
+}
+.toast3.show3 {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .teksty{
 
@@ -315,6 +608,126 @@ color: #ffffff;
 }
 
 
+.kontakt1{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+.kontakt2{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+
+.kontakt3{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+
+.kontakt4{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+
+.kontakt5{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+
+.kontakt6{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+.kontakt7{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+
+.kontakt8{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom right, #BE8AFF, #000000);
+    width: 35%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 1000px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(190, 138, 255, 0.4);
+    cursor:pointer;
+
+}
+
+
+
 .specjalista:hover{
 
     transform: scale(1.02);
@@ -336,7 +749,12 @@ color: #ffffff;
     align-content: center;
 }
 
+.diff{
 
+    font-family: Birthstone;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
 .Bar{
 
    
